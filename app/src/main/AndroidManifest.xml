@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.janki.final_practical_worl_janki_parth_sagar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/donut4"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Final_Practical_Worl_Janki_Parth_Sagar">
+        <activity android:name=".HotBeverageActivity">
+        </activity>
+        <activity android:name=".ColdBeverageActivity"></activity>
+        <activity android:name=".DonutActivity">
+        </activity>
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".HeaderActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
